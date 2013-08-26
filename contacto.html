@@ -71,6 +71,7 @@
 			<div class="span3">
 				<div class="well-large sidebar-nav">
 					<ul class="nav nav-list">
+						<!-- 
 						<li class="nav-header"><span class="icon-user"></span>Para ponerse en contacto</li>
 							<form class="form-horizontal" action="procesar.php" method="">
 							  	<div class="form-group">
@@ -87,7 +88,7 @@
 							    	</div>
 							  </div>
 							</form>
-
+ -->
 			
 						<li class="nav-header"><span class="icon-home"></span>Nuestra nueva Direccion:</li>
 							<address>
@@ -108,72 +109,7 @@
 					</ul>
 				</div><!--/.well -->
 			</div><!--/span3-->
-			<!--  -->
-			<div class="span9">
-				<div id="myCarrusel" class="carousel slide">
-					<ol class="carousel-indicators">
-					    <li data-target="#myCarrusel" data-slide-to="0" class="active"></li>
-					    <li data-target="#myCarrusel" data-slide-to="1"></li>
-						<li data-target="#myCarrusel" data-slide-to="2"></li>
-						<li data-target="#myCarrusel" data-slide-to="3"></li>
-						<li data-target="#myCarrusel" data-slide-to="4"></li>
-					</ol>
 
-
-					<div class="carousel-inner">
-						<div class="item active">
-							<img src="img/dephilocara.png" height="339" width="1100" alt="Slider">
-							<!-- <div class="carousel-caption">
-								<h4>Titulo</h4>
-								<p>Descripcion</p>
-							</div> -->
-						</div>
-						<div class="item">
-							<img src="img/chicadepilo2.png" height="339" width="1100" alt="Slider">
-							<!-- <div class="carousel-caption">
-								<h4>Titulo</h4>
-								<p>Descripcion</p>
-							</div> -->
-						</div>
-						<div class="item">
-							<img src="img/cama.png" height="339" width="1100" alt="Slider">
-							<!-- <div class="carousel-caption">
-								<h4>Titulo</h4>
-								<p>Descripcion</p>
-							</div> -->
-						</div>
-						<div class="item">
-							<img src="img/local.png" height="339" width="1100" alt="Slider">
-							<!-- <div class="carousel-caption">
-								<h4>Titulo</h4>
-								<p>Descripcion</p>
-							</div> -->
-						</div>
-						<div class="item">
-							<img src="img/henna.png" height="339" width="1100" alt="Slider">
-							<!-- <div class="carousel-caption">
-								<h4>Titulo</h4>
-								<p>Descripcion</p>
-							</div> -->
-						</div>
-						<div class="item">
-							<img src="img/chicadepilo.png" height="339" width="1100" alt="Slider">
-							<!-- <div class="carousel-caption">
-								<h4>Titulo</h4>
-								<p>Descripcion</p>
-							</div> -->
-						</div>
-					</div>
-
-					<a class="left carousel-control" href="#myCarrusel" data-slide="prev">
-						<span class="icon-hand-left icon-white"></span>
-					</a>
-					<a class="right carousel-control" href="#myCarrusel" data-slide="next">
-						<span class="icon-hand-right icon-white"></span>
-					</a>
-
-				</div>  <!-- FIN id="myCarrusel" -->
-			</div>	<!-- FIN class="span9" -->
 			<div class="span9">
 				<!-- <h1>Neena, depilación al hilo</h1> -->
 				<!-- <div class="hero-unit">
@@ -189,6 +125,19 @@
 			  			<hr>
 			  		</div>
 			  	</div>
+			  				<!-- Formulario -->
+			<!-- <div class="span9"> -->
+				<div class="row-fluid">
+					<form action="procesar.php" method="post">
+					 	<fieldset>
+					    <input type="text" id="name" name="nombre" class="input-block-level" placeholder="Su Nombre">
+					    <input type="text" id="email" name="email" class="input-block-level" placeholder="Su Email">
+					    <textarea rows="3" id="description" name="comentario" class="input-block-level" placeholder="Su comentario"></textarea>
+					    <button type="submit" class="btn btn-warning pull-left">Submit</button>
+					    </fieldset>
+					</form>
+				</div>
+			<!--</div>	 FIN class="span9" -->
 				<div class="row-fluid">
 					<div class="span4">
 						<blockquote><h4 class="text-success">Depilacion al hilo</h4></blockquote>
